@@ -1,7 +1,9 @@
-h1{}
+h1 {text-align: middle;}
 
 body {
 
   font-family: "Arial Narrow", Arial, sans-serif;
   color: black;
-  background-color:#81e6a8;}
+  background-image:url('http://giphy.com/gifs/aXtzVQkya5Ftu');
+background-repeat: repeat;
+}
