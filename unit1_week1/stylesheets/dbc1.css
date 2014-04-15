@@ -26,3 +26,7 @@ margin:10px;}
 
 
 
+  a:link	{color:blue;} /* unvisited link */
+  a:visited	{color:green;} /* visited link */
+  a:hover	{color:purple;} /* mouse over link */
+  a:active	{color:red;} /* selected link */
