@@ -5,7 +5,7 @@ h3{
 	text-decoration: underline;}
 
 
-body {
+body{
 
   font-family: "Arial Narrow", Arial, sans-serif;
   color: black;
@@ -16,6 +16,7 @@ border-width: 20;
 }
 
 p{
+	text-indent: 2
 width: 250px;
 padding: 10px;
 border-style: solid;
