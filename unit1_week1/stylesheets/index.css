@@ -60,6 +60,28 @@ body
     margin: 10 auto;
 }
 
+.background
+  {
+  width:500px;
+  height:250px;
+  background:url(klematis.jpg) repeat;
+  }
+.transbox
+  {
+  width:400px;
+  height:500px;
+  margin:30px 50px;
+  background-color:black;
+  border:1px solid black;
+  opacity:0.6;
+  }
+div.transbox p
+  {
+  margin:30px 40px;
+  font-weight:bold;
+  color:white;
+  }
+
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
