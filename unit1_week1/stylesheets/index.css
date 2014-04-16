@@ -1,0 +1,66 @@
+.align-centerpurp{
+  text-align:center;
+  color: purple; 
+  font-weight: bold;
+}
+
+.align-centerwhite{
+  text-align:center;
+  color: black; 
+  font-weight: bold;
+}
+.align-centerred{
+  text-align:center;
+  color: #f05b62; 
+  font-weight: bold;
+}
+
+
+.white{
+  color: white; 
+  font-weight: bold;
+}
+.yellow{
+	color:#ffd700;
+	font-weight: bold;
+
+}
+
+.blue{
+	color:#008AE6;
+	font-weight: bold;
+
+}
+.font{
+	font-family: "AUdimat", sans-serif;
+	font-weight: bold;
+
+}
+
+body
+{
+	background-image:url("http://24.media.tumblr.com/693547887bf16efc07629ecb35927a3a/tumblr_mxskwobOti1qkk0ubo1_r2_500.gif");
+	background-repeat:repeat;
+	background-size: cover;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#down {
+    position: fixed;
+    bottom: 100;
+    width: 100%;}
+
+#center {
+    width: cover;
+    margin: 10 auto;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
