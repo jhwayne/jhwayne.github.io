@@ -7,6 +7,7 @@
 }
 
 .jumbotron .container p{
+    font-family: Raleway;
   color: white;
 }
 
@@ -26,13 +27,16 @@ text-align: center;
 }
 
 .navbar {
-  border: 0px;
-  background-color: #222222;
+  border:0px solid;
   position: absolute;
   top: 100%;
   right: 5%;
   width: 110px;
   z-index: 999;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: black;
 }
 
 .container {
@@ -54,6 +58,10 @@ background: #333333;
 
 .background-contact{
   background:#D1D1D1 
+}
+
+h1{
+  font-family: Raleway;
 }
 
 h2, h3 {
@@ -80,9 +88,14 @@ margin: 10px
 #profile .row > div {
 margin-bottom: 20px;
 }
+
+.cointainer #interests  h2  {
+  color: #00A352;
+}
 body {
+font-family: 'Roboto', thin;
 font-size: 15px;
-line-height: 1.64;
+line-height: 2;
 color: #EBEBEB
 }
 
