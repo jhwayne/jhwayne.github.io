@@ -28,7 +28,7 @@ text-align: center;
 
 .navbar {
   border:0px solid;
-  position: absolute;
+  position: fixed;
   top: 100%;
   right: 5%;
   width: 110px;
