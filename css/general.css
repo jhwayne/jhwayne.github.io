@@ -238,6 +238,10 @@ body {
   background-color: #007bb6;
 }
 
+.envelope span{
+  background-color: #cb2027
+}
+
 
 
 
@@ -262,6 +266,9 @@ body {
 .icon-button .fa-pinterest {
   color: #cb2027;
 }
+.icon-button .fa-envelope-o {
+  color: #cb2027;
+}
 
 
 
@@ -272,6 +279,7 @@ body {
 .icon-button:hover .fa-tumblr,
 .icon-button:hover .fa-instagram,
 .icon-button:hover .fa-youtube,
+.icon-button:hover .fa-envelope-o,
 .icon-button:hover .fa-linkedin {
   color: white;
 }
