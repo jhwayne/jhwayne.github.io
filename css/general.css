@@ -313,9 +313,10 @@ body {
   .pinterest {
    display: none; 
   }
+}
 
-
-
+.hidden{
+  display: none;
 }
 
 /*font-face*/

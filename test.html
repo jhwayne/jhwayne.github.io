@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <link rel="stylesheet" href="test.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="test.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="test.js"></script>
 </head>
 <body>
-<footer>
-<a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
-<a href="http://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
-<a href="http://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
-</footer>
+	<div id="left">
+	<a href="#target1" class="panel">About Me</a><br/>
+		<a href="#target2" class="panel">Expereicne</a><br/>
+		<a href="#target3" class="panel">Target 3</a><br/>
+	</div>
+
+	<div id="right">
+		<div class="panel active" id="target1" style="background:green; display:block;"><div class = "transition">
+			<h2>About Me</h2>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ab architecto quisquam perferendis facilis, nisi, laborum. Inventore, repellat, quo! Ducimus ad eius, explicabo consectetur aliquid ratione eos, molestias quas culpa!</div>
+		<div class="panel" id="target2" style="background:red">Target 2</div>
+		<div class="panel" id="target3" style="background:yellow">Target 3</div>
+	</div>
+
+	<footer>
+		<a href="http://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+		<a href="http://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+		<a href="http://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+	</footer>
 </body>
 </html>
