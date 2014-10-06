@@ -132,31 +132,11 @@ section {
   section article {
     padding: 50px 0; }
 
-/*section:nth-of-type(odd) {
-  background: #fff; }*/
-
-canvas {
-  background-color: white; }
-
-/*helper*/
-.isFixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 2px 0 #eee; }
-
-.whiteSpace {
-  margin-top: 60px;
-  -webkit-transition: none;
-  transition: none; }
-}
-
 html {
-  font-size: 2.5em;
+  font-size: 2.0em;
 }
 body {
-  background-color: #fff;
+  background-color: white;
   padding: 25px;
   text-align: center;
 }
@@ -319,6 +299,9 @@ body {
   display: none;
 }
 
+footer{
+  width: 100%;
+}
 
 
 /*font-face*/
