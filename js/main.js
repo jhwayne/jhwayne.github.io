@@ -187,4 +187,6 @@ $('a[href^="#"]').click(function(event) {
 
 });
 
+document.addEventListener("touchstart", function() {},false);
+
 
