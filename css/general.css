@@ -122,19 +122,19 @@ nav li a:after {
 nav.second li a:hover:after, nav.third li a:hover:after{height: 100%; }
 
 
-nav li:first-child a:after{ background: #AD70DB; }
+nav li:first-child a:after{ background: #1abc9c; }
 nav li:nth-child(2) a:after{ background:#3498db; }
 nav li:nth-child(3) a:after{ background: #ffd071; }
 nav li:nth-child(4) a:after{ background: #f0776c; }
-nav li:last-child a:after{ background: #1abc9c; }
+nav li:last-child a:after{ background: #AD70DB; }
 
   
 nav li a:hover{ border-top: 0px; color: #fff;}
-nav li:first-child a{ border-top: 10px solid #AD70DB; }
+nav li:first-child a{ border-top: 10px solid #1abc9c; }
 nav li:nth-child(2) a{ border-top: 10px solid #3498db; }
 nav li:nth-child(3) a{ border-top: 10px solid #ffd071; }
 nav li:nth-child(4) a{ border-top: 10px solid #f0776c; }
-nav li:last-child a{ border-top: 10px solid #1abc9c; }
+nav li:last-child a{ border-top: 10px solid #AD70DB; }
 
 section {
   width: 100%;

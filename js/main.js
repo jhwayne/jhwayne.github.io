@@ -7,7 +7,9 @@ $('a[href^="#"]').click(function(event) {
 		$(".active").addClass("hidden");
 		$(id).removeClass("hidden");
 		$(id).addClass("active");
+
 	}
+	
 	if ($(this).attr("href") == "#about"){
 		// $("nav").css("background","#3498db");
 		// $("nav li a").css("background","#3498db");
@@ -22,7 +24,7 @@ $('a[href^="#"]').click(function(event) {
 		// $("nav").css("background","#ffd071");
 		// $("nav li a").css("background","#ffd071");
 		// $("body").css("background","#ffd071");
-		$("section").css("background","#ffffff");
+		$("section").css("background","#1abc9c");
 		// $("header").css("background","#ffd071");
 		// $("footer").css("background","#ffd071");
 		// $("html").css("background","#ffd071");
@@ -54,7 +56,7 @@ $('a[href^="#"]').click(function(event) {
 		// $("nav").css("background","#1abc9c");
 		// $("nav li a").css("background","#1abc9c");
 		// $("body").css("background","#1abc9c");
-		$("section").css("background","#1abc9c");
+		$("section").css("background","#AD70DB");
 		// $("header").css("background","#1abc9c");
 		// $("footer").css("background","#1abc9c");
 		// $("html").css("background","#1abc9c");
