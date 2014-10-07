@@ -6,17 +6,17 @@ html, body {
   font-weight: 300;
   height: 100%;
   color: white;
-  background: lightgray;
+  background: white;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   transition: all 0.3s ease-in-out; }
 
 section.calc-method { 
-  background: lightgray;
+  background: white;
   width: 700px;
   margin: 0 auto;
   box-sizing: content-box;
-  padding: 50px calc(50% - 350px);
+  padding: 70px calc(50% - 350px);
 }
 
 @media (max-width: 800px) {
@@ -40,6 +40,7 @@ header  > h2 {
 p{
   color: black;
   font-size:18px;
+  font-style: bold;
 }
 
 .container {
@@ -52,7 +53,7 @@ header {
   width: 100%;
   height: 100px;
   position: relative;
-  background: lightgray; }
+  background: white; }
   header h1 {
     font-size: 50px;
     font-weight: 300;
@@ -70,7 +71,7 @@ nav{
   overflow: hidden;
   width: 100%; 
   margin: 0px auto;
-  background: lightgray;
+  background: white;
 }
 
 nav ul {
@@ -93,7 +94,7 @@ nav li a{
   z-index: 2;
   text-decoration: none;
   color: #444;
-  background-color: lightgray;
+  background-color: white;
   box-sizing: border-box;  
   -moz-box-sizing: border-box;  
   -webkit-box-sizing: border-box; 
@@ -121,37 +122,38 @@ nav li a:after {
 nav.second li a:hover:after, nav.third li a:hover:after{height: 100%; }
 
 
-nav li:first-child a:after{ background: #3498db; }
-nav li:nth-child(2) a:after{ background: #ffd071; }
-nav li:nth-child(3) a:after{ background: #f0776c; }
+nav li:first-child a:after{ background: #AD70DB; }
+nav li:nth-child(2) a:after{ background:#3498db; }
+nav li:nth-child(3) a:after{ background: #ffd071; }
+nav li:nth-child(4) a:after{ background: #f0776c; }
 nav li:last-child a:after{ background: #1abc9c; }
 
   
 nav li a:hover{ border-top: 0px; color: #fff;}
-nav li:first-child a{ border-top: 10px solid #3498db; }
-nav li:nth-child(2) a{ border-top: 10px solid #ffd071; }
-nav li:nth-child(3) a{ border-top: 10px solid #f0776c; }
+nav li:first-child a{ border-top: 10px solid #AD70DB; }
+nav li:nth-child(2) a{ border-top: 10px solid #3498db; }
+nav li:nth-child(3) a{ border-top: 10px solid #ffd071; }
+nav li:nth-child(4) a{ border-top: 10px solid #f0776c; }
 nav li:last-child a{ border-top: 10px solid #1abc9c; }
 
 section {
   width: 100%;
   height: 50%;
   color: #444; }
-  section article {
-    padding: 50px 0; }
+
 
 html {
   font-size: 2.0em;
 }
 body {
-  background-color: lightgray;
-  padding: 25px;
+  background-color: white;
+  /*padding: 25px;*/
   text-align: center;
 }
 
 /* Wrapper */
 .icon-button {
-  background-color: lightgray;
+  background-color: white;
   border-radius: 4.0rem;
   cursor: pointer;
   display: inline-block;
@@ -309,7 +311,7 @@ body {
 
 footer{
   width: 100%;
-  background-color: lightgray;
+  background-color: white;
 }
 
 
