@@ -1,16 +1,39 @@
-#left, #right {
-    position: relative;
-    float: left;
-    margin: 0 5px 0 0;
-    border: 1px solid black;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
+html {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS';
 }
 
-div.panel {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: none;
+.wrapper {
+  width: 444px;
+  padding: 3% 0 3% 3%;
+  float: left;
+}
+
+h2 {font-size: 3em; letter-spacing: 2px; text-align: center; color: #c0c0c0; font-weight: bold;}
+
+@media all and (max-width: 443px) {
+  .wrapper {
+    width: 97%;
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 1175px) {
+    h2 {
+    font-size: 2em;
+
+  }
+}
+
+.module {
+  float: left;
+  padding: 10% 0 3% 3%;
+}
+
+.buttons li {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.buttons li:hover {
+  background-color: #222 !important; <!--Temporary override for JS styling-->
 }

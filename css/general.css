@@ -65,19 +65,19 @@ header {
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0); }
 
-nav{
+nav {
   float: none; 
   clear: both;
   overflow: hidden;
-  width: 100%; 
+  width: 750px; 
   margin: 0px auto;
   background: white;
 }
 
 nav ul {
   list-style: none;
-  margin:0px;
-  margin-left: 60px;
+  margin:0px ;
+
 }
 
 nav li{
@@ -86,7 +86,7 @@ nav li{
 
 nav li a{
   display: block; 
-  width: 200px; 
+  width: 120px; 
   padding: 20px; 
   border-top: 5px solid; 
   position: relative; 
@@ -307,6 +307,20 @@ body {
 
 .hidden{
   display: none;
+}
+
+#portfolio{
+  background-color: #8fb9fe;
+  margin: 0 auto;
+  height: 400px;
+  width:400px;
+  font-family: "Lato", sans-serif;
+  text-shadow:none;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: white;
 }
 
 footer{
