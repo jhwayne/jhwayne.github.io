@@ -19,14 +19,6 @@ section.calc-method {
   padding: 70px calc(50% - 350px);
 }
 
-@media (max-width: 800px) {
-  section.calc-method {
-    width: 100%;
-    padding: 50px;
-    box-sizing: border-box;
-  }
-
-}
 
 h1, h2 {
   color: white;
@@ -328,6 +320,17 @@ footer{
   background-color: white;
 }
 
+@media (max-width: 600px) {
+  section.calc-method {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+nav {
+  width: 100%;
+}
+
+}
 
 /*font-face*/
 @font-face {
