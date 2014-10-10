@@ -130,7 +130,6 @@ nav li:last-child a{ border-top: 10px solid #AD70DB; }
 
 section {
   width: 100%;
-  height: 50%;
   color: #444; }
 
 
@@ -318,6 +317,13 @@ body {
 footer{
   width: 100%;
   background-color: white;
+}
+
+#proimage img {
+  border-radius: 50%;
+  border: 5px solid black;
+  width:30%;
+  height:30%;
 }
 
 @media (max-width: 600px) {

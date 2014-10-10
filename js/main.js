@@ -71,9 +71,9 @@ $('a[href^="#"]').click(function(event) {
 
 document.addEventListener("touchstart", function() {},false);
 
+
+
 });
-
-
 
  // #3498db --about
  // #ffd071 --work
