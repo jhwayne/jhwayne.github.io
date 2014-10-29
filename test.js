@@ -1,29 +1,30 @@
-
-$('.slides').slidesjs({
-    width: 600,
-    height: 300,
-    callback: {
-        loaded: function(){
-          // hide navigation and pagination
-          $('.slidesjs-pagination, .slidesjs-navigation').hide(0); 
-        }
-    }
-});
+$(document).ready(function() {
   
-  // custom navigation/pagination links for slideshow
-$(".custom-item").click(function(e){
-  e.preventDefault();
-  // use data-item value when triggering default pagination link
-  $('a[data-slidesjs-item="' + $(this).attr("data-item") + '"]').trigger('click');
+  // On click, remove class on active element, add it to the new one
+  
+  $('header nav a').click(function(e) {
+    
+    $('header nav a.active').removeClass('active');
+    $(this).addClass('active');
+    
+    // Scroll to anchor
+    
+    $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top - 70},'slow');
+    
+    e.preventDefault();
+    return false;
+    
+  });
+  
+  // On scroll, remove class on active element and add it to the new one
+  
+  $(document).scroll(function() {
+     
+     var position = Math.floor($(this).scrollTop() / 800) + 1;
+    
+     $('header nav a.active').removeClass('active');
+     $('header nav a.link-' + position).addClass('active');
+    
+  });
+  
 });
-// $('.custom-next').click(function(e) {
-//   e.preventDefault();
-//   // emulate next click
-//   $('.slidesjs-next').click();
-// });
-// $('.custom-prev').click(function(e) {
-//   e.preventDefault();
-//   // emulate previous click
-//   $('.slidesjs-previous').click();
-// });
-//   
