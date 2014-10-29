@@ -70,7 +70,7 @@ header nav ul li a.active{
 
 header nav ul li a.link-1 { background-color: #00c0e4; }
 header nav ul li a.link-2 { background-color: #E74C3C; }
-header nav ul li a.link-3 { background-color: #eac14d; }
+header nav ul li a.link-3 { background-color: #BE90D4; }
 header nav ul li a.link-4 { background-color: #5bd999; }
 
 
@@ -83,8 +83,8 @@ section {
 }
 
 section#home { background-color: #00c0e4; margin-top: 70px;}
-section#about { background-color: #eac14d; }
-section#clients { background-color: #E74C3C; }
+section#about { background-color: #E74C3C; }
+section#works { background-color: #BE90D4; }
 section#contact-us { background-color: #5bd999; }
 
 section h2 {
